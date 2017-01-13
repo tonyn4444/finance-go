@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
-  devise_for :users, :controllers => { :registrations => "users/registrations" }
-  resources :user_stocks, except: {:show, :edit, :update}
+  devise_for :users, :controllers => { :registrations => "user/registrations" }
+  resources :user_stocks
   
 	root 'welcome#index'
   get 'my_portfolio', to: 'users#my_portfolio'
