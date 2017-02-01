@@ -4,5 +4,4 @@ This is an application that allows users to easily keep track of company stocks 
 
 Users can also search for, add, and view profiles of their friends on the site.
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![logo](https://github.com/libgit2/libgit2sharp/raw/master/square-logo.png)
