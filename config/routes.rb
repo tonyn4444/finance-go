@@ -7,8 +7,10 @@ Rails.application.routes.draw do
   get 'search_friends', to: 'users#search'
 	post 'add_friend', to: 'users#add_friend'
   
-	root 'welcome#index'
+	get 'landing', to: 'welcome#index'
   get 'my_portfolio', to: 'users#my_portfolio'
+  root to: 'users#my_portfolio'
+
   get 'search_stocks', to: 'stocks#search'
   get 'my_friends', to: 'users#my_friends'
 end
