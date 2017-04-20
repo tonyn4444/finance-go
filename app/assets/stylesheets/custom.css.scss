@@ -39,3 +39,71 @@ background-color: darken(#d9534f, 20%) !important;
 }
 
 }
+
+.navbar-default {
+	background-color: #283e4a;
+	color: white;
+	margin: 0 !important;
+	/*border: 3px solid red;*/
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-brand{
+	color: white !important;
+}
+
+#nav {
+	margin: 0 !important;
+	width: 100%;
+}
+
+#stock-lookup {
+	/*border: 2px solid red;*/
+	margin-top: 50px;
+}
+
+a {
+	color: white !important;
+}
+
+#stocks-container {
+	/*border: 2px solid blue;*/
+}
+
+#login-form {
+	/*border: 2px solid green;*/
+	width: 100%;
+	margin-left: 175px;
+	margin-top: 75px;
+}
+
+#sign-in-btn {
+	display: inline;
+}
+
+#edit-form-container {
+	width: 100%;
+	margin-left: 175px;
+	margin-top: 75px;	
+}
+
+#devise-container {
+	width: 100%;
+	margin-left: 175px;
+	margin-top: 75px;	
+}
+
+#sign-up-btn {
+	color: white !important;
+	display: inline;
+}
+
+#registration-container {
+	width: 100%;
+	margin-left: 175px;
+	margin-top: 75px;
+}
